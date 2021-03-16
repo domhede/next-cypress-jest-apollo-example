@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Heading } from '@chakra-ui/react';
+import { Tester } from '../components/Tester/Tester';
 import { Center } from '@chakra-ui/react';
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Center bg="grey" h="100vh">
-          <Heading color="tomato">Hello world</Heading>
+          <Tester name="Jerry" />
         </Center>
       </main>
 
