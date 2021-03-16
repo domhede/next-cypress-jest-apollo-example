@@ -27,5 +27,15 @@
   "env": {
     "jest": true,
     "node": true
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.{js,jsx,ts,tsx}"],
+      "plugins": ["no-only-tests"],
+      "extends": ["plugin:cypress/recommended"],
+      "rules": {
+        "no-only-tests/no-only-tests": "error"
+      }
+    }
+  ]
 }
