@@ -6,5 +6,5 @@ module.exports = {
   testMatch: ['<rootDir>/**/?(*.)+(test).[jt]s?(x)'],
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   collectCoverage: true,
-  coverageDirectory: './coverage',
+  coverageDirectory: './jest-coverage',
 };

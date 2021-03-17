@@ -1,9 +1,9 @@
 import { Heading } from '@chakra-ui/react';
 
-export interface TesterProps {
-  name: string;
+export interface HelloProps {
+  name?: string;
 }
 
-export function Tester({ name }: TesterProps) {
+export function Hello({ name = 'World' }: HelloProps) {
   return <Heading color="tomato">Hello {name}</Heading>;
 }

@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import { Tester } from '../components/Tester/Tester';
-import { Center } from '@chakra-ui/react';
+import { HelloWorld } from '../components/HelloWorld/HelloWorld';
+import { Hello } from '../components/Hello/Hello';
+import { Center, VStack } from '@chakra-ui/react';
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
 
       <main>
         <Center bg="grey" h="100vh">
-          <Tester name="Jerry" />
+          <VStack spacing="4">
+            <HelloWorld />
+            <Hello name="Jerry" />
+          </VStack>
         </Center>
       </main>
 
