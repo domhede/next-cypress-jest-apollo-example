@@ -11,6 +11,7 @@
 /jest-coverage
 /cypress-coverage
 /reports
+/cypress/videos
 
 # next.js
 /.next/
