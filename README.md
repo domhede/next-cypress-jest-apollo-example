@@ -29,7 +29,29 @@ yarn run format
 
 ### Testing
 
-// TODO
+To run unit and integration tests with Jest
+
+```
+yarn test
+```
+
+To run end-to-end browser tests with Cypress
+
+```bash
+
+# start the dev server (run in seprate terminal)
+yarn dev:e2e
+
+# start Cypress
+yarn cypress:open
+
+```
+
+To view a combined coverage report run
+
+```
+yarn test-coverage
+```
 
 ### Ops
 

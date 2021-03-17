@@ -6,7 +6,12 @@
 .pnp.js
 
 # testing
+/.nyc_output
 /coverage
+/jest-coverage
+/cypress-coverage
+/reports
+/cypress/videos
 
 # next.js
 /.next/
