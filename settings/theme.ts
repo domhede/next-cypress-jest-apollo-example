@@ -4,7 +4,9 @@ export const theme = {
   ...baseTheme,
   colors: {
     ...baseTheme.colors,
-    grey: '#EFF0F1',
+    grey: '#E9E9E9',
+    lightGrey: '#F1F1F1',
     purple: '#D3BADB',
+    yellow: '#FFDD87',
   },
 };
