@@ -4,4 +4,5 @@ module.exports = {
   testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
   collectCoverage: true,
   coverageDirectory: './jest-coverage',
+  testEnvironment: 'jsdom',
 };

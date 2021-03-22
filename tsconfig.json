@@ -13,16 +13,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "types": ["cypress", "@testing-library/cypress"]
+    "types": ["cypress", "@testing-library/cypress", "@testing-library/jest-dom"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": [
-    "node_modules",
-    ".next",
-    "out",
-    ".nyc_output",
-    "cypress-coverage",
-    "coverage",
-    "jest-coverage"
-  ]
+  "exclude": ["**/*.test.tsx", "node_modules", ".next", "out", ".nyc_output", "cypress-coverage", "coverage", "jest-coverage"]
 }

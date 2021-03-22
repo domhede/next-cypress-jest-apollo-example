@@ -1,6 +1,6 @@
-# Gravity Frontend
+# Nextjs Demo App with Cypress, Jest and Mocked Apollo API
 
-This is a [Next.js](https://nextjs.org/) project.
+This is a [Next.js](https://nextjs.org/) project. Includes combined Cypress and Jest coverage report.
 
 ## Getting Started
 

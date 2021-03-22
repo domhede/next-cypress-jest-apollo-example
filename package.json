@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "test-watch": "jest --watch",
+    "test-watch": "jest --watchAll",
     "test": "jest",
     "dev:e2e": "NODE_ENV=e2e next dev",
     "cypress:open": "cypress open",
